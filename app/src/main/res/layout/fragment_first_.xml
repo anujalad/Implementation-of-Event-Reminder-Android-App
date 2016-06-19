@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anuja.androidproject.First_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add a new event"
+        android:id="@+id/addNewEventButton"
+        android:onClick="AddNewEvent"
+        android:layout_marginTop="67dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal|top" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My events"
+        android:id="@+id/myEventsButton"
+        android:onClick="MyEvents"
+        android:layout_below="@+id/addNewButton"
+        android:layout_alignStart="@+id/addNewButton"
+        android:layout_marginTop="77dp"
+        android:layout_alignEnd="@+id/addNewButton"
+        android:layout_gravity="center" />
+
+
+</FrameLayout>
